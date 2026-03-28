@@ -1,0 +1,819 @@
+================
+PAGE 1
+================
+
+3-Φ Machines
+(Based on rotor construction)
+Stator same for all machines
+
+1. Asynchronous Machines (Induction Machines – IM)
+
+Types:
+Single Cage IM
+- Squirrel Cage
+- SCIM
+- Ts less
+
+Double Cage IM
+- DCIM
+- Ts medium
+
+Wound Rotor IM
+- Slip Ring IM
+- SRIM
+- Ts can be controlled
+
+2. Synchronous Machines (SM)
+Wound Field Synchronous Machine
+Types:
+- Salient Pole SM
+- Non-Salient Pole SM
+  - Round Rotor SM
+  - Turbo SM
+
+Permanent Magnet Synchronous Motor
+
+PMSM
+Types:
+- Interior PMSM
+- Surface Mounted SM
+
+3. Commutator Machines
+- AC Series Motors
+- Schrage Motor
+
+Machine Windings
+Stator
+- Field winding (low power)
+
+Rotor
+- Armature winding (high power)
+
+Important Notes
+- In AC machines, armature winding is on the stator.
+- Supply mains provide the excitation.
+
+
+Armature Winding Types
+- Lap winding → DC
+- Wave winding
+
+3-Φ Machine Stator
+- Contains distributed winding
+
+Construction
+- Laminated slotted structure in the armature which holds the winding.
+
+3-Φ AC Winding Classification
+
+Contains 3-phase distributed winding
+
+1. Single Layer Winding
+Types:
+- Half coil
+- Mesh winding
+- Whole coil
+
+2. Double Layer Winding
+Types:
+- Lap
+- Wave
+
+Further classification:
+- Integral slot
+- Fractional slot
+
+
+
+================
+PAGE 2
+================
+
+36 slots, 4 pole, 3-Φ Induction Motor
+Armature : [R, Y, B]
+
+36 / 4 = 9 slots per pole
+
+Slot distribution:
+1   2   3   → R  
+4   5   6   → Y  
+7   8   9   → B  
+
+(10 11 12  
+ 13 14 15  
+ 16 17 18) per pole
+
+Coils of R-phase should be connected to R-phase only.
+
+Slot angle
+360° / 36 = 10° per slot
+
+
+Phase placement
+R-phase at 0°  
+Y-phase after 120°  
+B-phase after another 120°
+
+
+Rotating magnetic field is produced which passes through the air gap, cuts rotor conductor (S.C), current flows and flux is produced.
+
+Flux according to Lenz's law.
+Rotor flux and stator flux interact and torque is produced.
+
+Flux passes through core; core provides low reluctance path.
+Low leakage flux.
+
+Stator magnetic field is rotating magnetic field.
+Ns = 120f / P
+Rotates at synchronous speed.
+
+Nr < Ns
+(stator rotating magnetic field)
+
+Difference between Nr and Ns is called slip speed.
+Hence called asynchronous machine.
+Induction motor draws more current due to the air gap.
+Hence more excitation is required so that flux can pass through the air gap.
+
+IN-load ≈ 25% of I full-load
+IFL = 10 A  
+INL = 0.2 A
+
+Slip ring (Wound rotor IM)
+
+Wound rotor induction motor has winding on rotor.
+Higher cost, efficiency slightly lower.
+External R and L can be added.
+EMF can also be injected.
+Starting torque can be controlled through rotor.
+Used for heavy load starting.
+Continuous variation of speed.
+
+
+
+================
+PAGE 3
+================
+
+Date: 24-12-25
+
+Principle of Operation
+
+When 3-Φ supply is given to the 3-Φ stator winding, a constant amplitude rotating magnetic field is produced.  
+The speed of rotation of the magnetic field depends on the number of stator poles and the supply frequency.
+
+This speed is called synchronous speed.
+Ns = 120f / P
+
+
+The MMF produced by both stator and rotor travel in the same direction at synchronous speed.
+
+Combination of these two MMFs gives a resultant air-gap MMF or flux density wave rotating at synchronous speed.
+Since the relative speed between rotor MMF and the resultant flux density wave is zero, a steady torque is developed by their interaction.
+
+Stator and Rotor Structure
+Stator:
+- 3-Φ distributed winding
+
+Rotor:
+- Rotor bars
+
+Between them is the air gap through which flux passes.
+
+Air-gap flux (Φ)
+Assume Xₗ = 0
+Flux Φ produces MMF (F₂)  
+MMF produces current (I₂)  
+Current produces EMF (E₂)
+
+
+When 3-Φ supply is given to a 3-Φ winding, two poles N₁ and S₁ are produced.  
+A resultant flux density wave is created in the stator and rotates in anti-clockwise direction at synchronous speed.
+
+Flux passes through the air gap and cuts the stationary rotor bars at synchronous speed.
+Rotor bars at pole centers have maximum EMF, and bars away from the pole center have reduced EMF magnitude.
+
+Magnitude of EMF is proportional to the relative velocity between the flux and rotor conductors.
+|EMF| ∝ Vrelative
+
+According to Fleming's Right Hand Rule the EMF direction is determined.
+Since rotor bars are short-circuited, rotor current flows according to Lenz's law.
+
+
+
+================
+PAGE 4
+================
+
+To reduce the relative speed between the rotating flux of the stator and the stationary rotor conductors, the rotor starts rotating in the same direction as the flux to catch up the speed, but it cannot catch it and rotates at a speed:
+Nr < Ns
+
+If the rotor circuit is assumed to be purely resistive, the rotor current is in phase with the EMF generated E2.
+The current in rotor conductors produces MMF F2 which lags the air-gap flux by 90°.
+
+By interaction of air-gap flux and rotor MMF F2, both are in the same direction of the rotating magnetic field.
+As a result, electromagnetic torque will be developed.
+
+Torque relations:
+T ∝ Φ F2 sin 90°
+T ∝ Φ Ia   (DC machine)
+T ∝ Φ I cosθ   (AC machine)
+
+In an actual machine, the rotor conductors are placed in rotor slots which are made up of magnetic material.
+Rotor conductors offer leakage reactance.
+
+As a result the rotor becomes inductive.
+Rotor current in each bar lags behind the generated EMF by rotor power factor angle θ₂.
+θ₂ = tan⁻¹ (X₂ / R₂)
+
+Rotor leakage reactance due to current in rotor bars becomes maximum only when poles N1 and S1 have travelled through an angle θ₂ from the position of maximum EMF.
+
+Rotor current sets up rotor MMF F2 which is displaced from air-gap flux Φ by an angle of:
+90° + θ₂
+
+Rotor power factor:
+cos θ₂
+
+Torque equation considering rotor power factor:
+T ∝ Φ F2 sin (90 + θ₂)
+T ∝ Φ F2 cos θ₂
+
+
+
+================
+PAGE 5
+================
+
+Design Equation
+
+Q = C₀ D² L ns
+Where:
+C₀ → Output coefficient  
+D → Diameter  
+L → Axial length  
+ns → Speed (rps)
+
+C₀ = (Specific electric loading) × (Specific magnetic loading)
+D²L → Frame size of machine
+
+
+In case of squirrel cage induction motor, since the rotor is short circuited, the rotor can adjust itself to any number of stator poles.
+
+But in case of wound rotor induction motor, both rotor and stator windings must be wound for the same number of poles.
+
+Rotor Frequency (f₂)
+
+At starting (standstill)
+Nr = 0
+
+The frequency of the induced EMF in the rotor is the same as that of supply frequency fs.
+When the rotor starts rotating at a speed Nr (rpm) in the direction of the rotating flux wave, the relative speed between the rotating flux and rotor conductor becomes:
+
+ns − nr
+
+Supply frequency
+f₁ = (P Ns) / 120
+
+Rotor frequency
+f₂ = (P / 120) (ns − nr)
+f₂ = (P / 2) (ns − nr)
+
+Slip speed
+ns − nr
+
+Slip
+s = (ns − nr) / ns
+
+Percentage slip
+% slip = ((ns − nr) / ns) × 100
+
+ns − nr = s * ns
+
+Rotor frequency
+f₂ = (P / 2) (s ns)
+f₂ = s f₁
+
+At starting:
+Slip s = 1
+Therefore
+f₂ = f₁
+
+When the rotor is revolving at speed Nr:
+fr = s f₁
+
+The rotor produces a magnetic field revolving at a speed s ns with respect to the rotor structure.
+But the rotor itself is already revolving at mechanical speed Nr with respect to the stator.
+
+Therefore:
+
+Speed of rotor field with respect to stator
+= Mechanical rotor speed (Nr)  
++ Rotor field speed with respect to rotor (s ns)
+
+
+
+=====================
+PAGE 6
+=====================
+
+Rotor Impedance
+
+Rotor impedance at standstill (per phase):
+Z2 = r2 + jx2
+|Z2| = √(r2^2 + x2^2)
+
+Rotor impedance at any slip (s):
+|Z2| = √(r2^2 + (s x2)^2)
+
+--------------------------------------------------
+
+Rotor Current
+
+Rotor current at standstill:
+I2 = E2 / √(r2^2 + x2^2)
+
+Rotor current at any slip (s):
+I2 = sE2 / √(r2^2 + (s x2)^2)
+
+--------------------------------------------------
+
+Rotor Circuit Phase Angle
+
+Rotor current lags rotor voltage (E2) by angle θ2:
+
+θ2 = tan^-1 (s x2 / r2)
+
+--------------------------------------------------
+
+Speed of Rotor Field
+
+Speed of rotor field w.r.t stator:
+
+Nr = Ns
+
+Derivation:
+Nr = Ns(1 - s) + sNs
+Nr = Ns
+
+--------------------------------------------------
+
+Key Points
+
+- Rotor physical speed is less than stator field speed
+- Stator field w.r.t rotor moves at synchronous speed
+- Rotor and stator fields are stationary w.r.t each other
+- Relative speed between fields = 0
+- Steady torque is produced
+
+--------------------------------------------------
+
+Rotor Circuit Relations
+
+Rotor induced emf at slip (s):
+E2(s) = sE2
+
+Rotor frequency:
+f2 = s f1
+
+Rotor reactance:
+x2(s) = 2π f2 L2
+      = 2π (s f1) L2
+      = s x2
+
+--------------------------------------------------
+
+Diagram Summary
+
+Two rotor equivalent circuits:
+
+1. Standstill:
+   - Resistance = r2
+   - Reactance = x2
+   - EMF = E2
+
+2. At slip (s):
+   - Resistance = r2
+   - Reactance = s x2
+   - EMF = sE2
+
+→ Shows how rotor parameters vary with slip
+
+
+
+=====================
+PAGE 7
+=====================
+
+Power Flow in Rotor
+
+Pin to rotor = Stator output
+             = Air-gap power
+             = Pg
+             = E2 I2 cosθ2
+
+--------------------------------------------------
+
+Power Factor
+
+cosθ2 = (r2/s) / √((r2/s)^2 + x2^2)
+
+--------------------------------------------------
+
+Air-Gap Power (Pg)
+
+Pg = E2 × I2 × cosθ2
+
+Substituting:
+
+Pg = E2 × [E2 / √((r2/s)^2 + x2^2)] × [(r2/s) / √((r2/s)^2 + x2^2)]
+
+Pg = (E2^2 × (r2/s)) / [(r2/s)^2 + x2^2]
+
+Since:
+I2 = E2 / √((r2/s)^2 + x2^2)
+
+⇒ Pg = I2^2 × (r2/s)
+
+★ Pg = (I2^2 r2) / s
+
+--------------------------------------------------
+
+Rotor Input Power
+
+Power input to rotor:
+
+Pg = Rotor Cu loss / s
+
+Pg = I2^2 r2 / s
+
+--------------------------------------------------
+
+Power Distribution
+
+Pg = Rotor Cu loss + Mechanical power developed
+
+Pg = I2^2 r2 + I2^2 r2 ((1 - s)/s)
+
+--------------------------------------------------
+
+Mechanical Power Developed
+
+Pm = Pg (1 - s)
+
+Pm = (I2^2 r2 / s) (1 - s)
+
+Pm = I2^2 r2 (1/s - 1)
+
+--------------------------------------------------
+
+Power Relation
+
+Pg = sPg + Pg(1 - s)
+   = sPg + Pm
+
+--------------------------------------------------
+
+Rotor Copper Loss
+
+Rotor Cu loss = s × Rotor input power
+              = sPg
+
+--------------------------------------------------
+
+Torque Developed
+
+Internal torque developed per phase:
+
+T = Pm / ωr
+  = Pg(1 - s) / ωr
+
+Where:
+
+ωs = (2π Ns) / 60
+ωr = (2π Nr) / 60
+
+--------------------------------------------------
+
+Torque Relation
+
+Pm / ωr = Pg / ωs
+
+⇒ T = Pg / ωs
+
+⇒ T = (I2^2 r2) / (s ωs)
+
+--------------------------------------------------
+
+Key Notes
+
+- Stator output = Power transferred to rotor
+- Air-gap power splits into:
+  • Rotor copper loss
+  • Mechanical power developed
+- Slip determines power division
+- Higher slip → more copper loss
+- Lower slip → more mechanical output
+
+
+
+=====================
+PAGE 8
+=====================
+
+Losses in 3-Phase Induction Motor
+(Power Flow Diagram)
+
+--------------------------------------------------
+
+Power Flow Sequence
+
+Electrical Power input to motor (stator)
+        ↓
+Stator losses (Core + Cu)
+        ↓
+Stator output = Rotor input = Pg
+        ↓
+Rotor Cu losses = sPg
+        ↓
+Mechanical power developed in rotor = Pg(1 - s)
+        ↓
+Friction & Windage losses
+        ↓
+Net Mechanical Power Output
+
+--------------------------------------------------
+
+Power Distribution Summary
+
+Rotor Input        = Pg        = 1
+Rotor Cu Loss      = sPg       = s
+Mechanical Power   = (1 - s)Pg = (1 - s)
+
+--------------------------------------------------
+
+Numerical Problem
+
+Given:
+
+Power input (Pin) = 40 kW  
+Voltage = 400 V  
+Frequency = 60 Hz  
+Poles (P) = 6  
+Speed (Nr) = 1140 rpm  
+Power factor = 0.8 lag  
+
+Stator losses = 1 kW  
+Friction & windage losses = 2 kW  
+
+Find:
+- Slip
+- Rotor Cu loss
+- Mechanical power developed
+- Efficiency
+- Current
+
+--------------------------------------------------
+
+Step 1: Air-gap Power
+
+Pg = Pin - Stator losses  
+Pg = 40 - 1 = 39 kW
+
+--------------------------------------------------
+
+Step 2: Synchronous Speed
+
+Ns = (120 × f) / P  
+Ns = (120 × 60) / 6 = 1200 rpm
+
+Rotor speed:
+Nr = 1140 rpm
+
+--------------------------------------------------
+
+Step 3: Slip
+
+s = (Ns - Nr) / Ns  
+s = (1200 - 1140) / 1200  
+s = 60 / 1200 = 0.05
+
+--------------------------------------------------
+
+(To be continued on next page for remaining calculations)
+
+
+
+=====================
+PAGE 9
+=====================
+
+Continuation of Problem
+
+Step 4: Slip
+
+s = (Ns - Nr) / Ns  
+s = (1200 - 1140) / 1200  
+s = 0.05
+
+--------------------------------------------------
+
+Step 5: Rotor Copper Loss
+
+Rotor Cu loss = sPg  
+= 0.05 × 39  
+= 1.95 kW
+
+--------------------------------------------------
+
+Step 6: Mechanical Power Developed
+
+Pm = Pg (1 - s)  
+= 39 (1 - 0.05)  
+= 39 × 0.95  
+= 37.05 kW
+
+--------------------------------------------------
+
+Step 7: Net Mechanical Power Output
+
+Friction & Windage losses = 2 kW  
+
+Pout = Pm - F&W losses  
+= 37.05 - 2  
+= 35.05 kW
+
+--------------------------------------------------
+
+Step 8: Efficiency
+
+η = (Output / Input) × 100  
+= (35.05 / 40) × 100  
+= 87.625 %
+
+--------------------------------------------------
+
+Step 9: Line Current
+
+Pin = √3 VL IL cosφ  
+
+IL = Pin / (√3 VL cosφ)  
+
+IL = (40 × 10^3) / (√3 × 400 × 0.8)  
+
+IL ≈ 72.17 A
+
+--------------------------------------------------
+--------------------------------------------------
+
+New Problem
+
+Given:
+
+Power output = 10 kW  
+Voltage = 400 V (Delta connected)  
+3-phase, 4-pole IM  
+Frequency = 50 Hz  
+
+No-load line current = 8 A  
+No-load input power = 600 W  
+
+Full-load line current = 18 A  
+Full-load input power = 11.2 kW  
+
+Stator resistance per phase = 1.2 Ω  
+Friction & windage losses = 420 W  
+
+Rotor Cu loss at no-load is negligible  
+
+Find:
+i) Stator core loss  
+ii) Rotor Cu loss at full load  
+iii) Full load speed  
+iv) Internal torque developed  
+v) Shaft torque  
+vi) Efficiency  
+
+--------------------------------------------------
+
+Step 1: Synchronous Speed
+
+Ns = (120 f) / P  
+Ns = (120 × 50) / 4  
+Ns = 1500 rpm
+
+
+
+=====================
+PAGE 10
+=====================
+
+Continuation of Problem
+
+--------------------------------------------------
+
+Step 2: Convert Line Current to Phase Current (Delta)
+
+At no-load:
+INL = 8 / √3 = 4.62 A  
+
+At full load:
+IFL = 18 / √3 = 10.39 A  
+
+--------------------------------------------------
+
+Step 3: Stator Copper Loss (Full Load)
+
+Ps = 3 I^2 R  
+   = 3 × (10.39)^2 × 1.2  
+   = 389 W
+
+--------------------------------------------------
+
+Step 4: Stator Core Loss
+
+Core loss = Pin(no-load) - F&W - Stator Cu loss (no-load)
+
+Stator Cu loss (no-load):
+= 3 × (4.62)^2 × 1.2  
+
+Core loss:
+= 600 - 420 - [3 × (4.62)^2 × 1.2]  
+= 600 - 420 - 77  
+= 103 W
+
+--------------------------------------------------
+
+Step 5: Air-Gap Power
+
+Pag = Pin(full load) - Stator Cu loss - Core loss  
+
+Pag = 11200 - 389 - 103  
+Pag = 10708 W  
+= 10.708 kW
+
+--------------------------------------------------
+
+Step 6: Mechanical Power Developed
+
+Pm = Pout + F&W losses  
+Pm = 10 kW + 0.42 kW  
+Pm = 10.42 kW
+
+--------------------------------------------------
+
+Step 7: Slip
+
+s = (Pag - Pm) / Pag  
+
+s = (10708 - 10420) / 10708  
+s ≈ 0.0269 ≈ 2.69 %
+
+--------------------------------------------------
+
+Step 8: Full Load Speed
+
+Ns = 1500 rpm  
+
+NFL = Ns (1 - s)  
+NFL = 1500 (1 - 0.0269)  
+NFL ≈ 1460 rpm
+
+--------------------------------------------------
+
+Step 9: Internal Torque
+
+Tint = Pag / ωs  
+
+Tint = (10708 × 60) / (2π × 1500)  
+Tint ≈ 68.2 N·m
+
+--------------------------------------------------
+
+Step 10: Shaft Torque
+
+Tshaft = Pout / ωr  
+
+Tshaft = (10000 × 60) / (2π × 1460)  
+Tshaft ≈ 65.2 N·m
+
+--------------------------------------------------
+
+Step 11: Efficiency
+
+η = Output / Input  
+
+η = (10 × 10^3) / (11.2 × 10^3)  
+η ≈ 89.3 %
+
+--------------------------------------------------
+
+Final Answers
+
+- Stator core loss = 103 W  
+- Rotor Cu loss = Pag - Pm = 288 W  
+- Full load speed = 1460 rpm  
+- Internal torque = 68.2 N·m  
+- Shaft torque = 65.2 N·m  
+- Efficiency = 89.3 %
+
+
