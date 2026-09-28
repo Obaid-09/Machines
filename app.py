@@ -48,7 +48,7 @@ def setup_rag():
 retriever = setup_rag()
 
 # 3. LLM SETUP
-llm = ChatGroq(model="llama-3.1-8b-instant")
+llm = ChatGroq(model="openai/gpt-oss-20b")
 
 # 4. LANGGRAPH STATE & NODES
 class AgentState(TypedDict):
